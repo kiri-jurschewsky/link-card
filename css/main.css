@@ -3,50 +3,13 @@ html {
   background-color: #f0eee8;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-h2 {
-  font-family: "Dosis", sans-serif;
-  color: #512200;
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-
-a {
-  background-color: #cabdb2;
-  display: inline-block;
-  text-decoration: none;
-  color: #512200;
-  border-style: solid;
-  border-color: #9a816d;
-  border-radius: 8px
-}
-
 .btn {
+  font-family: "Dosis", sans-serif;
+  display: inline-block;
+  border-radius: 8px;
   background-color: #785439;
   color: #fff;
-  text-decoration: none;
-  border-radius: 8px;
-  display: inline-block;
-  font-family: "Dosis", sans-serif;
   text-align: center;
-}
-
-dl {
-  background: #717171;
-  height: 1px;
-  border-bottom: 1px solid #313030;
-}
-
-dl dd {
-  margin-left: 10rem;
-  display: block;
-}
-
-dl dt {
-  display: block;
 }
 
 body {
@@ -54,15 +17,31 @@ body {
   background-color: #dcd4cd;
   margin: .5rem;
   border-radius: 3px;
-  padding: .1px 1rem;
-  width: 75%;
+  width: 100%;
   border-width: 3px;
-  display: inline-block;
-  border-style: solid;
+  padding: .1px 1rem;
+  border-radius: 8px;
+	display: inline-block;
+	border-style: solid;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.5rem;
 }
 
 p {
   font-size: 1rem;
+}
+
+dl dd {
+  display: block;
+  margin-left: 10rem;
+}
+
+dl dt {
+  display: block;
 }
 
 .link-card:hover {
@@ -70,7 +49,11 @@ p {
 }
 
 .link-card {
-  font-family: "Georgia", serif;
   color: #512200;
   text-decoration: none;
+  font-family: "Georgia", serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
