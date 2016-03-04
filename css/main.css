@@ -1,10 +1,10 @@
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
   background-color: #f0eee8;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 h2 {
@@ -19,9 +19,9 @@ a {
   display: inline-block;
   text-decoration: none;
   color: #512200;
-	border-style: solid;
-	border-color: #9a816d;
-	border-radius: 8px
+  border-style: solid;
+  border-color: #9a816d;
+  border-radius: 8px
 }
 
 .btn {
