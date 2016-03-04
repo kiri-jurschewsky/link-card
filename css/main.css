@@ -35,9 +35,18 @@ a {
 }
 
 dl {
-  height: 1px;
   background: #717171;
+  height: 1px;
   border-bottom: 1px solid #313030;
+}
+
+dl dd {
+  margin-left: 10rem;
+  display: block;
+}
+
+dl dt {
+  display: block;
 }
 
 body {
@@ -45,9 +54,9 @@ body {
   background-color: #dcd4cd;
   margin: .5rem;
   border-radius: 3px;
+  padding: .1px 1rem;
   width: 75%;
   border-width: 3px;
-  padding: .1px 1rem;
   display: inline-block;
   border-style: solid;
 }
@@ -58,4 +67,10 @@ p {
 
 .link-card:hover {
   background-color: #cabdb2;
+}
+
+.link-card {
+  font-family: "Georgia", serif;
+  color: #512200;
+  text-decoration: none;
 }
